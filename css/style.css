@@ -351,3 +351,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .optionInput {
 	display: inline-block;
 }
+
+.modal-body {
+	overflow: hidden;
+}
+
+.modal-title {
+	display: inline-block;
+}
+
+.img-thumbnail:hover {
+	opacity: 0.8;
+}

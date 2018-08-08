@@ -44,7 +44,7 @@ To change the main 360 image displayed, hover or click on a thumbnail.
 ### 360 stereo viewer
 **->** `360stereoViewer.php`
 
-
+This viewer allows to visualize stereo images (left and right). 
 
 ### 360 video
 **->** `360video.php`

@@ -19,8 +19,8 @@ function updateSelectOptions() {
         case "360stereoImage":
             $("#360stereoImageInput").show();
             break;
-        case "360video":
-            $("#360videoInput").show();
-            break;
+        // case "360video":
+        //     $("#360videoInput").show();
+        //     break;
     }
 }

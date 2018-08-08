@@ -98,7 +98,7 @@
                         <div class="portfolio-items isotope" style="position: relative; overflow: hidden; min-height: 700px;">
                             <div class="col-sm-6 col-md-4 lorem isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
                                 <div class="portfolio-item">
-                                    <div class="hover-bg"> <a href="360viewer.php" title="Project Title" data-lightbox-gallery="gallery1">
+                                    <div class="hover-bg"> <a href="360viewer.php" title="360 Image" data-lightbox-gallery="gallery1">
                                             <div class="hover-text">
                                                 <div class="overlay-caption">
                                                     <div class="overlay-content">
@@ -106,14 +106,14 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                            <img src="img/portfolio/01-small.jpg" class="img-responsive" alt=""> </a> </div>
                                 </div>
                             </div>
 
                             <!-- 360 Stereo Image -->
                             <div class="col-sm-6 col-md-4 adipiscing isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(389px, 0px, 0px);">
                                 <div class="portfolio-item">
-                                    <div class="hover-bg"> <a href="360stereoViewer.php" title="Project Title" data-lightbox-gallery="gallery1">
+                                    <div class="hover-bg"> <a href="360stereoViewer.php" title="360 Stereo Image" data-lightbox-gallery="gallery1">
                                             <div class="hover-text">
                                                 <div class="overlay-caption">
                                                     <div class="overlay-content">
@@ -121,14 +121,15 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                            <img src="img/portfolio/02-small.jpg" class="img-responsive" alt=""> </a> </div>
                                 </div>
                             </div>
 
                             <!-- 360 Video -->
                             <div class="col-sm-6 col-md-4 lorem isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(778px, 0px, 0px);">
                                 <div class="portfolio-item">
-                                    <div class="hover-bg"> <a href="360video.php" title="Project Title" data-lightbox-gallery="gallery1">
+                                    <div class="hover-bg">
+                                        <a href="#" data-toggle="modal" data-target="#360videoModal" title="360 Video" data-lightbox-gallery="gallery1">
                                             <div class="hover-text">
                                                 <div class="overlay-caption">
                                                     <div class="overlay-content">
@@ -136,14 +137,15 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                            <img src="img/portfolio/03-small.jpg" class="img-responsive" alt=""> </a> </div>
                                 </div>
                             </div>
 
                             <!-- 360 Stereo Video -->
                             <div class="col-sm-6 col-md-4 lorem isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 267px, 0px);">
                                 <div class="portfolio-item">
-                                    <div class="hover-bg"> <a href="360stereoVideo.php" title="Project Title" data-lightbox-gallery="gallery1">
+                                    <div class="hover-bg">
+                                        <a href="360stereoVideo.php" title="360 Stereo Video" data-lightbox-gallery="gallery1">
                                             <div class="hover-text">
                                                 <div class="overlay-caption">
                                                     <div class="overlay-content">
@@ -151,14 +153,47 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                            <img src="img/portfolio/04-small.jpg" class="img-responsive" alt=""> </a> </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+
+
+
                 </div>
             </div>
+    </div>
+</div>
+
+
+<!-- 360 Video Modal -->
+<div class="modal fade" id="360videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">360 Video Gallery</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-6 col-md-3">
+                    <a href="360video.php">
+                        <img src="img/video-thumbnail1.png" alt="video-thumbnail1" class="img-thumbnail">
+                    </a>
+                    <div class="caption text-center">
+                        <p>Temple</p>
+                    </div>
+
+                </div>
+            </div>
+<!--            <div class="modal-footer">-->
+<!--                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+<!--                <button type="button" class="btn btn-primary">Save changes</button>-->
+<!--            </div>-->
+        </div>
     </div>
 </div>
 
@@ -183,8 +218,8 @@
                         <select name="option" id="selectOptions" onchange="updateSelectOptions()">
                             <option value="360image">360 Image</option>
                             <option value="360stereoImage">360 Stereo Image</option>
-                            <option value="360video">360 Video</option>
-                        </select>
+<!--                            <option value="360video">360 Video</option>-->
+                        </select>index
                     </div>
                 </div>
 
@@ -213,16 +248,16 @@
                 </div>
 
                 <!-- 360 video input -->
-                <div id="360videoInput" class="form-group row optionInput" >
-                    <label class="col-sm-2 col-form-label">File</label>
-                    <div class="col-sm-10">
-                        <input type="file" id="video" name="video" accept="video/mp4" />
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <input type="submit" class="btn btn-primary" value="Upload" name="submit">
-                </div>
+<!--                <div id="360videoInput" class="form-group row optionInput" >-->
+<!--                    <label class="col-sm-2 col-form-label">File</label>-->
+<!--                    <div class="col-sm-10">-->
+<!--                        <input type="file" id="video" name="video" accept="video/mp4" />-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="form-group">-->
+<!--                    <input type="submit" class="btn btn-primary" value="Upload" name="submit">-->
+<!--                </div>-->
 
             </form>
         </div>

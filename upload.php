@@ -22,12 +22,12 @@
                 }
                 break;
 
-            case "360video":
-                $allowed_files = array("mp4");
-                if (save_file("video", $target_dir, "video.mp4", $allowed_files)) {
-
-                }
-                break;
+//            case "360video":
+//                $allowed_files = array("mp4");
+//                if (save_file("video", $target_dir, "video.mp4", $allowed_files)) {
+//
+//                }
+//                break;
         }
     }
 
