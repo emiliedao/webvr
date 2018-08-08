@@ -15,6 +15,10 @@
         window.location.replace("360stereoViewer.php");
     }
 
+    function load360video() {
+        window.location.replace("360video.php");
+    }
+
     function load360stereoVideo() {
         window.location.replace("360stereoVideo.php");
     }
@@ -47,8 +51,17 @@
 
             <a-gui-button
                 width="2.5" height="0.75"
-                onclick="load360stereoVideo" key-code="32"
+                onclick="load360video" key-code="32"
                 value="360 Video"
+                font-family="Arial"
+                margin="0 0 0.05 0"
+            >
+            </a-gui-button>
+
+            <a-gui-button
+                width="2.5" height="0.75"
+                onclick="load360stereoVideo" key-code="32"
+                value="360 Stereo Video"
                 font-family="Arial"
                 margin="0 0 0.05 0"
             >

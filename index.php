@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
     <title>WebVR</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -9,6 +9,9 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <!-- Stylesheet
         ================================================== -->
@@ -77,7 +80,7 @@
         <div class="section-title text-center center">
             <h2>About</h2>
             <hr>
-            <p>WebVR is an open technology making it possible to experience VR in your web browser. Rather than installing a VR application, WebVR make it easier for everyone to get into VR experiences. All you need is a VR headset such as the affordable Google Cardboard.</p>
+            <p><a href="https://webvr.rocks/" target="_blank">WebVR</a> is an open technology making it possible to experience VR in your web browser. Rather than installing a VR application, WebVR make it easier for everyone to get into VR experiences. All you need is a VR headset such as the affordable Google Cardboard and a compatible browser.</p>
         </div>
     </div>
 </div>
@@ -169,7 +172,7 @@
 
 
 <!-- 360 Video Modal -->
-<div class="modal fade" id="360videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div id="360videoModal" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -199,6 +202,13 @@
                     </div>
 
                 </div>
+
+                <div style="clear: both">
+                    <p>
+                        <i class="fas fa-exclamation-triangle"></i> If the video is not playing correctly, please check <a href="https://aframe.io/docs/0.8.0/introduction/vr-headsets-and-webvr-browsers.html#which-browsers-does-a-frame-support" target="_blank">browser compatibility</a>.
+                    </p>
+                </div>
+
             </div>
 <!--            <div class="modal-footer">-->
 <!--                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
@@ -266,9 +276,9 @@
 <!--                    </div>-->
 <!--                </div>-->
 <!---->
-<!--                <div class="form-group">-->
-<!--                    <input type="submit" class="btn btn-primary" value="Upload" name="submit">-->
-<!--                </div>-->
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" value="Upload" name="submit">
+                </div>
 
             </form>
         </div>
