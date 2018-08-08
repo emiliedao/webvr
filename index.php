@@ -179,12 +179,23 @@
                 </button>
             </div>
             <div class="modal-body">
+                <!-- Temple video -->
                 <div class="col-sm-6 col-md-3">
-                    <a href="360video.php">
-                        <img src="img/video-thumbnail1.png" alt="video-thumbnail1" class="img-thumbnail">
+                    <a href="360video.php?video=temple">
+                        <img src="img/portfolio/video-thumbnail1.png" alt="video-thumbnail1" class="img-thumbnail">
                     </a>
                     <div class="caption text-center">
                         <p>Temple</p>
+                    </div>
+                </div>
+
+                <!-- Dinosaurs museum video -->
+                <div class="col-sm-6 col-md-3">
+                    <a href="360video.php?video=dinosaurs">
+                        <img src="img/portfolio/video-thumbnail2.png" alt="video-thumbnail1" class="img-thumbnail">
+                    </a>
+                    <div class="caption text-center">
+                        <p>Dinosaurs</p>
                     </div>
 
                 </div>

@@ -1,3 +1,10 @@
+<?php
+    $video = "temple";
+    if (isset($_GET["video"])) {
+        $video = $_GET["video"];
+    }
+?>
+
 <html>
 <head>
     <title>360 Video</title>
@@ -11,7 +18,7 @@
     <!-- Wait for the video to load. -->
     <a-assets>
         <!-- Single source video. -->
-        <video id="video" src="gallery/360videos/360videoTemple.MP4"
+        <video id="video" src="gallery/360videos/<?php echo $video ?>.MP4"
                autoplay loop crossorigin="anonymous">
         </video>
     </a-assets>
