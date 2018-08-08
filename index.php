@@ -95,8 +95,8 @@
                     <div class="row">
 
                         <!-- 360 Image -->
-                        <div class="portfolio-items isotope" style="position: relative; overflow: hidden; min-height: 700px;">
-                            <div class="col-sm-6 col-md-4 lorem isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
+                        <div class="portfolio-items">
+                            <div class="col-sm-6 col-md-4 lorem>
                                 <div class="portfolio-item">
                                     <div class="hover-bg"> <a href="360viewer.php" title="360 Image" data-lightbox-gallery="gallery1">
                                             <div class="hover-text">
@@ -111,7 +111,7 @@
                             </div>
 
                             <!-- 360 Stereo Image -->
-                            <div class="col-sm-6 col-md-4 adipiscing isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(389px, 0px, 0px);">
+                            <div class="col-sm-6 col-md-4 adipiscing">
                                 <div class="portfolio-item">
                                     <div class="hover-bg"> <a href="360stereoViewer.php" title="360 Stereo Image" data-lightbox-gallery="gallery1">
                                             <div class="hover-text">
@@ -126,7 +126,7 @@
                             </div>
 
                             <!-- 360 Video -->
-                            <div class="col-sm-6 col-md-4 lorem isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(778px, 0px, 0px);">
+                            <div class="col-sm-6 col-md-4 lorem">
                                 <div class="portfolio-item">
                                     <div class="hover-bg">
                                         <a href="#" data-toggle="modal" data-target="#360videoModal" title="360 Video" data-lightbox-gallery="gallery1">
@@ -142,7 +142,7 @@
                             </div>
 
                             <!-- 360 Stereo Video -->
-                            <div class="col-sm-6 col-md-4 lorem isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 267px, 0px);">
+                            <div class="col-sm-6 col-md-4 lorem">
                                 <div class="portfolio-item">
                                     <div class="hover-bg">
                                         <a href="360stereoVideo.php" title="360 Stereo Video" data-lightbox-gallery="gallery1">
@@ -230,7 +230,7 @@
                             <option value="360image">360 Image</option>
                             <option value="360stereoImage">360 Stereo Image</option>
 <!--                            <option value="360video">360 Video</option>-->
-                        </select>index
+                        </select>
                     </div>
                 </div>
 
